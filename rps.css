@@ -1,0 +1,160 @@
+#body{
+    font-family: 'Fuzzy Bubbles', 'cursive';
+    border-radius: 5px;
+}
+#header{
+    background-color: blue;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+
+}
+#heading{
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px 3px;
+    padding: 10px;
+    text-shadow:2px 2px 4px white;
+}
+#allDiv{
+    margin-top: 1em;
+}
+#Result{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    box-shadow:5px 5px 5px 3px blue;
+    border-radius: 5px;
+    
+
+
+}
+#Result-I{
+    text-align: start;
+    padding: 1em;
+    width: 50%;
+    background-color: violet;
+    margin: 1em;
+    background-color: tomato;
+    box-shadow:5px 5px 5px 3px blue;
+    border-radius: 5px;
+}
+#Result-II{
+    width: 40%;
+    margin: 1em;
+    background-color: tomato;
+    align-items: center;
+    align-content: center;
+    box-shadow:5px 5px 5px 3px blue;
+    border-radius: 5px;
+}
+#moveCount{
+    width: 50%;
+    box-shadow:5px 5px 5px 3px blue;
+    border-radius: 5px;
+
+}
+#bottomDiv{
+    height: 200px;
+    width: 50%;
+}
+#Result-II #finalStatus{
+  align-items: center;
+  align-content: center;
+  color: azure;
+  font-size:3em;
+}
+#bottomDiv{
+    box-shadow:5px 5px 5px 3px blue;
+    border-radius: 5px;
+}
+#Button{
+    margin-top: 2em;
+
+}
+
+#Rock, #Paper, #Scissor{
+    margin: 20px;
+    background-color: deeppink;
+    border: none;
+    padding: 1em;
+    width: 100px;
+    box-shadow:5px 5px 5px 3px black;
+    box-shadow:5px 5px 5px 3px azure;
+
+}
+#Rock:hover,#Paper:hover,#Scissor:hover{
+    background-color: rgb(189, 22, 111);
+    box-shadow:none;
+    padding: 13px;
+    width: 95;
+}
+  @media only screen and (max-width: 600px) {
+    #Result{
+        margin: 5px;
+        width:95%;
+        height: 180px;
+        
+    }
+    #heading{ 
+        padding: 5px;
+         font-size: 1.4em;
+      }
+    #Result #Result-I h3,#Result-II h4{ 
+        padding: 1px;
+         font-size: 1em;
+      }
+    #Result-II #finalStatus{ 
+        font-size: 1.3em;
+     }
+    #Result-II { 
+        padding-top: 7px;
+      }
+    #moveCount{ 
+        width: 95%;
+      }
+    #bottomDiv{ 
+        width: 95%;
+        height: 150px;
+        justify-content: space-evenly;
+      }
+    #moveCount h4{ 
+        font-size: 1em;
+       }
+    #Button{ 
+        margin-top: 1em;
+      } 
+    #Rock, #Paper, #Scissor{ 
+        margin: 1px;
+        width: 80px;
+        padding: 10px;
+      }
+  }
+  @media only screen and ( max-width: 916px) and (min-width:600px) {
+    #Result{
+        margin: 5px;
+        width:95%;
+        height: 180px;
+        
+    }
+    #moveCount{ 
+        width: 95%;
+      }
+      #bottomDiv{ 
+        width: 95%;
+        height: 150px;
+        justify-content: space-evenly;
+      }  
+      #Button{
+        margin-top: 0.4em;
+    
+    }
+    #Rock, #Paper, #Scissor{ 
+        margin: 5px;
+        width: 80px;
+        padding: 10px;
+      }
+    
+  }
+  
+  
